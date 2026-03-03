@@ -76,9 +76,36 @@ h6 {
 #morcat {
     position: relative;
     margin-top: 70px;
-    border: 5pt rgb(255, 0, 0) ridge;
+    border: 5pt rgb(179, 21, 163) ridge;
     align-items: center; 
-    background-color: rgb(202, 79, 255);
+}
+
+#shocat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(66, 12, 227) ridge;
+    align-items: center; 
+}
+
+#napcat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(8, 211, 65) ridge;
+    align-items: center; 
+}
+
+#suscat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(233, 243, 47) ridge;
+    align-items: center; 
+}
+
+#tinycat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(255, 129, 10) ridge;
+    align-items: center; 
 }
 
 .carter-one-regular {
@@ -95,6 +122,13 @@ h6 {
 }
 
 #catsdiv2 {
+    display: inline-flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: auto;
+}
+
+#catsdiv3 {
     display: inline-flex;
     padding-left: 10%;
     padding-right: 10%;
@@ -131,4 +165,52 @@ h6 {
 
 #cat8 {
     width: 300px;
+}
+
+#cat9 {
+    width: 300px;
+}
+
+#cat10 {
+    width: 300px;
+}
+
+#cat11 {
+    width: 300px;
+}
+
+#cat12 {
+    width: 300px;
+}
+
+#losebody {
+    background-color: red;
+}
+
+#loss {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100pt;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-top: 10%;
+}
+
+#winbody {
+    background-color: rgb(1, 255, 1);
+}
+
+#win {
+    color: rgb(6, 126, 38);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100pt;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-top: 10%;
+}
+
+#back {
+    align-items: left;
 }
