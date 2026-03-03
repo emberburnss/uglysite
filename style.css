@@ -10,13 +10,125 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#woman {
+h3 {
+    color: hotpink;
+    font-size: 60pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h6 {
+    color: cyan;
+    font-size: 20pt;
+    font-family: monospace;
+    text-align: center;
+}
+
+#angcat {
     position: relative;
-    margin-top: 100px;
+    margin-top: 70px;
+    border: 5pt blueviolet ridge;
+    align-items: center;
+}
+
+#biscat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(226, 103, 119) ridge;
+    align-items: center;
+}
+
+#checat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(201, 201, 24) ridge;
+    align-items: center; 
+}
+
+#coolcat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(5, 150, 223) ridge;
+    align-items: center; 
+}
+
+#craycat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(245, 60, 189) ridge;
+    align-items: center; 
+}
+
+#flycat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(160, 255, 112) ridge;
+    align-items: center; 
+}
+
+#huhcat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(255, 0, 0) ridge;
+    align-items: center; 
+    background-color: rgb(202, 79, 255);
+}
+
+#morcat {
+    position: relative;
+    margin-top: 70px;
+    border: 5pt rgb(255, 0, 0) ridge;
+    align-items: center; 
+    background-color: rgb(202, 79, 255);
 }
 
 .carter-one-regular {
   font-family: "carter1", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+#catsdiv1 {
+    display: inline-flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: auto;
+}
+
+#catsdiv2 {
+    display: inline-flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: auto;
+}
+
+#cat1 {
+    width: 300px;
+}
+
+#cat2 {
+    width: 300px;
+}
+
+#cat3 {
+    width: 300px;
+}
+
+#cat4 {
+    width: 300px;
+}
+
+#cat5 {
+    width: 300px;
+}
+
+#cat6 {
+    width: 300px;
+}
+
+#cat7 {
+    width: 300px;
+}
+
+#cat8 {
+    width: 300px;
 }
